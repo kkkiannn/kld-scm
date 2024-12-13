@@ -70,7 +70,7 @@ nav a:hover {
   color: white;
 }
 .table_mainWrapper {
-  width: 1200px;
+  width: 100%;
   border-spacing: 0px;
 }
 #td_aside {
@@ -83,6 +83,7 @@ aside a {
   color: black;
   display: block;
   padding: 10px 20px;
+  text-decoration: none;
 }
 aside a:hover {
   background-color: #06402b; /* #d6d6d6 */

@@ -3,7 +3,7 @@ $conn_error='Could not Connect.';
 $mysql_host='localhost';
 $mysql_user='root';
 $mysql_pass='';
-$mysql_db='sourcecodester_scm_new';
+$mysql_db='kld-scm';
 
 $con=mysqli_connect($mysql_host, $mysql_user, $mysql_pass, $mysql_db);
 // Check connection

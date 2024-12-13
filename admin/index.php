@@ -23,7 +23,7 @@ if (isset($_SESSION['admin_login'])) {
 <html>
 
 <head>
-	<title> Admin: Home </title>
+	<title>Admin: Home </title>
 	<link rel="stylesheet" href="../includes/main_style.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -34,7 +34,7 @@ if (isset($_SESSION['admin_login'])) {
 	include("../includes/nav_admin.inc.php");
 	include("../includes/aside_admin.inc.php");
 	?>
-	<section class="container my-4">
+	<section class="container-fluid px-5 my-4">
 		<h1 class="text-center mb-4">Welcome Admin</h1>
 
 		<div class="mb-5">
